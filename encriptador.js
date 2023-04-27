@@ -24,15 +24,12 @@ function mostrar(){
 function sinAcentos(){
     var contar = txtmensaje.value.length;
     for(var i = 0; i <= contar;i++){
-       if (txtmensaje.value.charCodeAt(i) >= 123){
-            //console.log(txtmensaje.value.charCodeAt(i));
+       if (txtmensaje.value.charCodeAt(i) >= 123){           
             alert("Ingrese texto sin acentos ni caracteres especiales")           
             return true;
             break;
         }
-
    }
-
 }
 
 function nomayusculas(){
@@ -82,8 +79,7 @@ function copiarsalida(){
     var copiar = txtsalida;
     copiar.select();
     document.execCommand('copy');     
-    alert("Texto copiado"); 
-    //txtmensaje.value=copiar.value;
+    alert("Texto copiado");     
     txtsalida.value=""
     txtmensaje.focus();
     mostrar();
