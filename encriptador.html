@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">    
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="encriptador.css">
+</head>
+<body>
+    <header>
+        <div class="cabeza">
+            <h1><img src="Logon1.png"></h1>
+        </div>       
+    </header>
+    
+    <main>
+        <div class="contenedor">
+            <div class="izquierda">
+                <div class="partetexto">
+                    <textarea id="txtMensaje" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                </div>
+                <div class="botones">
+                    <button id="bEncriptar">Encriptar</button>
+                    <button id="bDesencriptar" >Desecriptar</button>
+                </div>   
+            </div>
+            <div class="derecha">
+                <ul class="cuadro">
+                    <li>                        
+                        <textarea id="txtsalida" readonly></textarea>
+                    </li>
+                    <li>
+                        <img id="mune" src="pregunta.png">
+                    </li>
+                    <li id="pie">
+                        <p class="notexto">Ningún mensaje fue encontrado</p>
+                    </li>
+                    <li id="pie2" class="ingresealgo">Ingresa el texto que desees encriptar o <br> desencriptar.</li>
+                    <li>
+                        <button id="copiar">Copiar</button>
+                    </li>
+                </ul>
+            </div>            
+        </div>
+    </main>
+
+    <footer>
+        <p>Desarrolado por Niver Berríos - 2023</p>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>

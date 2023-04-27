@@ -1,0 +1,175 @@
+body{
+    background-color: #1D1F21;
+    font-family: 'arial';
+}
+
+header{    
+    padding: 20px 50px;
+}
+
+.cabeza img{
+    width: 5.8%;
+}
+
+.contenedor{
+    position: relative;    
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+}
+.izquierda{
+    display:inline-block;    
+    text-align: left;
+    width: 60%;
+    height: 550px;
+    vertical-align:top;
+    padding-left: 30px;    
+}
+
+#txtMensaje{
+    background-color: #1D1F21; 
+    border-radius: 2%;  
+    width: 600px;
+    height: 450px;
+    border: none;
+    outline: none; 
+    resize: none; 
+    font-size: 22px;
+    color:#ffffff;
+    font-family: arial;  
+}
+
+#txtMensaje::placeholder{
+   color: #929292;    
+}
+
+.botones{
+    padding: 20px;
+    text-align: center; 
+    
+    
+}
+
+#bEncriptar{
+    background-color: #FF6600;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 1px;
+    border-radius: 10px;
+}
+
+#bEncriptar:hover{
+    background-color: #ff983f;
+    color: #ffffa1;
+    border:1px solid #FF6600;    
+}
+
+#bEncriptar:active{
+    background-color: #FF6600;
+    color: #ffffff;    
+}
+
+
+#bDesencriptar{
+    background-color: #ff983f;
+    color: #ffffa1;
+    width: 200px;
+    height: 50px;   
+    border:1px solid #FF6600;    
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+#bDesencriptar:hover{
+    background-color: #FF6600;
+    color: #ffffff;
+}
+
+#bDesencriptar:active{
+    background-color: #ff983f;
+    color: #ffffff;
+}
+
+.derecha{
+    position: relative;
+    text-align: center;
+    background-color: #444648;
+    padding-top: 20px;
+    position: absolute;
+    top:-30px;
+    right: 30px;
+    border: none; 
+    height: 560px;
+    border-radius: 15px;    
+}
+
+.derecha img{
+    
+    width: 55%;
+    padding-top: 0px;
+    position: absolute;
+    right: 65px;
+}
+
+#txtsalida{
+    background-color: #444648;
+    border: none;
+    resize: none;
+    outline: none;
+    width: 230px;
+    height: 200px;
+    font-family: arial;
+    font-size: 15px;
+    color: #ffffff;     
+}
+
+.notexto{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+    top: 140px;
+}
+
+.ingresealgo{
+    font-size: 10px;    
+    color: #ffffff;
+    padding: 50px;
+    position: absolute;
+    top:360px
+}
+#copiar{
+    visibility: hidden;
+    background-color: #FF6600;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border: 1px solid #FF6600;
+    border-radius: 10px;
+    position: relative;
+    top: 225px;
+}
+#copiar:hover{
+    background-color: #ff983f;
+    border: 1px solid  #FF6600;
+    color: #ffffff;    
+}
+#copiar:active{
+    background-color:#FF6600;
+}
+
+footer{
+    
+    margin-top: 5px;
+}
+footer p{
+    text-align: center;
+    font-size: 10px; 
+    font-weight: bold;
+    color: #cccccc; 
+    padding: 20px 0 5px 0;  
+}
+
